@@ -13,13 +13,6 @@ body {
   flex: 1;
 }
 
-nav {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex: 1;
-}
-
 footer {
   display: flex;
   justify-content: space-around;
