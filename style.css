@@ -16,6 +16,9 @@ body {
   flex: 1;
 }
 /* ************** NAV ************** */
+nav {
+  background-color: rgb(43, 49, 65);
+}
 .nav-links {
   color: rgb(216, 216, 216);
   font-family: "Oswald";

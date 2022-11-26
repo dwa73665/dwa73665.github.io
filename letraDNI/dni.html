@@ -10,9 +10,32 @@
 </head>
 
 <body>
+    <nav>
+        <a class="nav-links" href="../index.html">Volver a Inicio</a>
+    </nav>
     <header>
-        <h1>Ejercicio 1: Calcular letra DNI</h1>
+        <h1>Calcula la letra de tu DNI</h1>
     </header>
+    <section>
+        <article>
+            Las posibles letras de un DNI son:<br>T, R, W, A, G, M, Y, F, P, D, X, B, N, J, Z, S, Q, V, H, L, C, K,
+            E.<br>
+            Para calcular la letra correspondiente al número de DNI, se divide dicho numero entre 23 obteniento un
+            resto.<br>El resto indicara la posición de la letra (en el orden mostrado anteriormente) empezando a contar
+            desde 0.
+        </article>
+        <div id="info">
+            <label for="campoDNI">Introduce DNI</label>
+            <input name="campoDNI" type="text">
+            <br>
+            <button id="botonDNI">Calcular letra</button>
+        </div>
+
+
+    </section>
+    <footer>
+
+    </footer>
 </body>
 
 <noscript>
